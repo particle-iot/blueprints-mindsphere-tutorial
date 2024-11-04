@@ -1,0 +1,35 @@
+application:
+  name: "siemens-mindsphere-tutorial"
+  version: "0.1.0"
+  description: "Siemens MindSphere tutorial"
+
+firmware:
+  target: [ gen3, gen4 ]
+  assets: [ ]
+
+cloud:
+  integrations:
+    - name: "MindSphere Timeseries REST API"
+      type: "webhook"
+      template: "custom"
+      trigger: "env-data"
+      url: "https://<region>.mindsphere.io/api/iottimeseries/v3/timeseries/YOUR_ASSET_ID/YOUR_ASPECT_NAME"
+      requestType: "POST"
+      headers:
+        Authorization: "Bearer $VAULT.MINDSPHERE_TOKEN"
+        Content-Type: "application/json"
+      body: |
+        [
+          {
+            "temperature": "{{temperature}}",
+          }
+        ]
+
+  vault:
+    secrets:
+      - name: "MINDSPHERE_TOKEN"
+        description: "Access token for Siemens MindSphere API"
+      - name: "MINDSPHERE_CLIENT_ID"
+        description: "Client ID for Siemens MindSphere"
+      - name: "MINDSPHERE_CLIENT_SECRET"
+        description: "Client Secret for Siemens MindSphere"

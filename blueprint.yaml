@@ -1,0 +1,23 @@
+id: particle/siemens-mindsphere-tutorial
+category: tutorial
+icon: mindsphere.png
+gitrepo: https://github.com/particle-iot/siemens-mindsphere-tutorial
+name: "Siemens MindSphere Integration Tutorial"
+shortDescription: "Learn how to send data from a Particle device to Siemens MindSphere using the Timeseries REST API."
+version: 1.0.0
+models: []
+language: [ "Particle Wiring" ]
+cloudServices: [ "Integrations", "Vault" ]
+integrations: [ "mindsphere" ]
+hardwareDependencies:
+  - name: "Particle Feather-based MCU Development Boards (e.g., Argon, Boron)"
+    link: "https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards"
+description: |
+  This Siemens MindSphere Integration Tutorial demonstrates how to send environmental data from a Particle device
+  to Siemens MindSphere using the Timeseries REST API. It walks through configuring a webhook to send temperature
+  data from a Particle device to MindSphere, where data can be stored, visualized, and analyzed.
+
+  Key Topics:
+  - Configuring Particle Webhooks for MindSphere
+  - Using the MindSphere Timeseries API
+  - Managing secure access to MindSphere using Vault
