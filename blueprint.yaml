@@ -10,8 +10,9 @@ language: [ "Particle Wiring" ]
 cloudServices: [ "Integrations", "Vault" ]
 integrations: [ "mindsphere" ]
 hardwareDependencies:
-  - name: "Particle Feather-based MCU Development Boards (e.g., Argon, Boron)"
-    link: "https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards"
+  - name: Particle MCU Development Board
+    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+    tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
 description: |
   This Siemens MindSphere Integration Tutorial demonstrates how to send environmental data from a Particle device
   to Siemens MindSphere using the Timeseries REST API. It walks through configuring a webhook to send temperature
