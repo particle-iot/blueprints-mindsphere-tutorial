@@ -1,8 +1,8 @@
 id: particle/siemens-mindsphere-tutorial
 category: tutorial
 icon: mindsphere.png
-gitrepo: https://github.com/particle-iot/siemens-mindsphere-tutorial
-name: "Siemens MindSphere Integration Tutorial"
+gitrepo: https://github.com/particle-iot/blueprints-mindsphere-tutorial
+name: "Siemens MindSphere integration tutorial"
 shortDescription: "Learn how to send data from a Particle device to Siemens MindSphere using the Timeseries REST API."
 version: 1.0.0
 models: []
@@ -14,10 +14,12 @@ hardwareDependencies:
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
     tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
 description: |
-  This Siemens MindSphere Integration Tutorial demonstrates how to send environmental data from a Particle device
-  to Siemens MindSphere using the Timeseries REST API. It walks through configuring a webhook to send temperature
-  data from a Particle device to MindSphere, where data can be stored, visualized, and analyzed.
+  This tutorial shows how to connect a Particle device to Siemens MindSphere, enabling you to send temperature data for cloud storage and analysis using the Timeseries REST API. It guides you through setting up a webhook to efficiently transfer data from your Particle device to MindSphere.
 
+  Ideal for users who want to integrate IoT data with MindSphere’s powerful analytics, this tutorial provides a hands-on approach to storing, visualizing, and managing environmental data on the MindSphere platform. It’s well-suited for applications where ongoing data insights are valuable.
+
+  Through this project, you'll learn essential skills for configuring Particle webhooks, using the Timeseries API, and securely managing MindSphere access with Vault. This is an excellent starting point for developers looking to expand their IoT solutions within industrial and environmental contexts.
+  
   Key Topics:
   - Configuring Particle Webhooks for MindSphere
   - Using the MindSphere Timeseries API
