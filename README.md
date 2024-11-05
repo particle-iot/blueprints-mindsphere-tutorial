@@ -1,10 +1,10 @@
-# Environmental Monitoring Tutorial
+# Siemens MindSphere Integration Tutorial
 
 ## Introduction
 
-Welcome to the **Environmental Monitoring Tutorial**! This blueprint demonstrates how to monitor environmental conditions by measuring temperature and humidity using a Particle device with a **Grove Temperature & Humidity Sensor**. Every 10 seconds, the sensor reads temperature and humidity values, publishing this data to the cloud. Once received, the cloud converts the temperature from Celsius to Fahrenheit and stores it in a time-series database (Ledger). Additionally, an alert is triggered if the temperature exceeds a specified threshold set within Ledger.
+Welcome to the Siemens MindSphere Integration Tutorial! This blueprint demonstrates how to connect a Particle device to Siemens MindSphere, enabling real-time data transfer using the Timeseries REST API. In this tutorial, you’ll configure a Particle webhook to send temperature data from a Particle device to MindSphere, where the data can be securely stored, visualized, and analyzed.
 
-This project provides a practical example of IoT-based environmental monitoring, ideal for use cases in smart homes, greenhouses, and industrial monitoring.
+Every 10 seconds, the Particle device captures temperature readings and publishes this data to MindSphere via the webhook. MindSphere then stores this data in its time-series database, allowing you to view historical trends and generate insights for applications like equipment monitoring and environmental analysis.
 
 ## Hardware Requirements
 
