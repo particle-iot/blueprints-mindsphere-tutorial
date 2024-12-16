@@ -1,18 +1,40 @@
 id: particle/siemens-mindsphere-tutorial
-category: tutorial
-icon: mindsphere.png
+slug: particle-siemens-mindsphere-tutorial
+type: tutorial
+category: "Device integration and connectivity"
+expertiseLevel: ""
+tags: ["wiring"]
+icon: assets/mindsphere.png
 gitrepo: https://github.com/particle-iot/blueprints-mindsphere-tutorial
 name: "Siemens MindSphere tutorial"
 shortDescription: "Learn how to send data from a Particle device to Siemens MindSphere using the Timeseries REST API."
 version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
-cloudServices: [ "Integrations", "Vault" ]
-integrations: [ "mindsphere" ]
+cloudServices: 
+  - name: Integrations
+  - name: Secure variables
+integrations: 
+  - name: mindsphere
+    icon: assets/mindsphere.png
+supportedDevices:
+  - name: Boron
+  - name: Argon
+  - name: M-SoM, 
+  - name: Photon 2
+  - name: Muon
+  - name: Monitor One
+  - name: Tracker One
+  - name: T-SoM
+  - name: E-SoM
+  - name: P2
 hardwareDependencies:
-  - name: Particle MCU Development Board
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
+  - name: Supported device
+introduction: |
+  Welcome to the Siemens MindSphere Integration Tutorial! This blueprint demonstrates how to connect a Particle device to Siemens MindSphere, enabling real-time data transfer using the Timeseries REST API. In this tutorial, you’ll configure a Particle webhook to send temperature data from a Particle device to MindSphere, where the data can be securely stored, visualized, and analyzed.
+
+  Every 10 seconds, the Particle device captures temperature readings and publishes this data to MindSphere via the webhook. MindSphere then stores this data in its time-series database, allowing you to view historical trends and generate insights for applications like equipment monitoring and environmental analysis.
+
 description: |
   This tutorial shows how to connect a Particle device to Siemens MindSphere, enabling you to send temperature data for cloud storage and analysis using the Timeseries REST API. It guides you through setting up a webhook to efficiently transfer data from your Particle device to MindSphere.
 
@@ -24,3 +46,5 @@ description: |
   - Configuring Particle Webhooks for MindSphere
   - Using the MindSphere Timeseries API
   - Managing secure access to MindSphere using Vault
+
+additionalResources:
