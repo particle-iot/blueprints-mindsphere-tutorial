@@ -1,9 +1,8 @@
-id: particle/siemens-mindsphere-tutorial
 slug: particle-siemens-mindsphere-tutorial
 type: tutorial
 category: "Device integration and connectivity"
-expertiseLevel: ""
-tags: ["wiring"]
+expertiseLevel: "intermediate"
+tags: ["siemens", "data export", "time series", "insights"]
 icon: assets/mindsphere.png
 gitrepo: https://github.com/particle-iot/blueprints-mindsphere-tutorial
 name: "Siemens MindSphere tutorial"
