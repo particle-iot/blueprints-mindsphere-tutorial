@@ -14,7 +14,7 @@ cloudServices:
   - name: Integrations
   - name: Secure variables
 integrations: 
-  - name: mindsphere
+  - name: MindSphere
     icon: assets/siemens-mindsphere.svg
 supportedDevices:
   - name: Boron
