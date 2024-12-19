@@ -27,6 +27,8 @@ supportedDevices:
   - name: T-SoM
   - name: E-SoM
   - name: P2
+webIdeLink: https://go.particle.io/shared_apps/6761fb2c17af1d0255d27ca2
+webSetupLink: https://setup.particle.io?app=particle-siemens-mindsphere-tutorial
 hardwareDependencies:
   - name: Supported device
 introduction: |
