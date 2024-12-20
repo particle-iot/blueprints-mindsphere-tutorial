@@ -21,16 +21,23 @@ The Particle Grove Shield is essential for connecting the Grove sensor to the Pa
 
 ## Table of Contents
 
-*   [Introduction](#introduction)
-*   [Hardware Requirements](#hardware-requirements)
-*   [Tutorial - Getting Started](#tutorial-getting-started)
-*   [Firmware Details](#firmware-details)
-*   [Cloud Functionality](#cloud-functionality)
-    *   [Ledger Time-Series Database](#ledger-time-series-database)
-    *   [Temperature Conversion and Alerts](#temperature-conversion-and-alerts)
-*   [Contributions](#contributions)
-*   [Change List](#change-list)
-*   [Supported Hardware](#supported-hardware)
+- [Siemens MindSphere Integration Tutorial](#siemens-mindsphere-integration-tutorial)
+  - [Introduction](#introduction)
+  - [Hardware Requirements](#hardware-requirements)
+  - [Table of Contents](#table-of-contents)
+  - [Tutorial - Getting Started](#tutorial---getting-started)
+    - [1. Configure the Grove Shield and Sensor](#1-configure-the-grove-shield-and-sensor)
+    - [2. Set Up and Flash the Firmware](#2-set-up-and-flash-the-firmware)
+    - [3. Monitor the Device’s Data and Alerts](#3-monitor-the-devices-data-and-alerts)
+  - [Firmware Details](#firmware-details)
+  - [Cloud Functionality](#cloud-functionality)
+    - [Ledger Time-Series Database](#ledger-time-series-database)
+    - [Temperature Conversion and Alerts](#temperature-conversion-and-alerts)
+  - [Contributions](#contributions)
+    - [How to Contribute](#how-to-contribute)
+  - [Change List](#change-list)
+  - [Supported Hardware](#supported-hardware)
+  - [License](#license)
 
 ## Tutorial - Getting Started
 
@@ -47,7 +54,7 @@ Clone or download this project repository and open it in Visual Studio Code or a
 Flash the firmware to your device. You can use Visual Studio Code with the **Cloud Flash** command, or the Particle CLI with the command:
 
 ```
-particle flash <device_name> environmental-monitoring
+particle flash <device_name>
 ```
 
 ### 3\. Monitor the Device’s Data and Alerts
