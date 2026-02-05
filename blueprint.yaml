@@ -2,20 +2,16 @@ slug: particle-siemens-mindsphere-tutorial
 type: Tutorial
 category: "Device integration and connectivity"
 expertiseLevel: "Intermediate"
-tags: ["Siemens", "Data export", "Time series", "Insights"]
+tags: ["Time Series", "Industrial", "Sensors"]
 icon: assets/siemens-mindsphere-tutorial.svg
 gitrepo: https://github.com/particle-iot/blueprints-mindsphere-tutorial
 name: "Siemens MindSphere tutorial"
 shortDescription: "Learn how to send data from a Particle device to Siemens MindSphere using the Timeseries REST API."
 version: 1.0.0
 models: []
-language: [ "Particle Wiring" ]
-cloudServices: 
-  - name: Integrations
-  - name: Secure variables
-integrations: 
-  - name: MindSphere
-    icon: assets/siemens-mindsphere.svg
+language: ["C++"]
+cloudServices: ["Siemens MindSphere"]
+integrations: ["Webhook", "Cloud Secrets"]
 supportedDevices:
   - name: Boron
   - name: Argon
