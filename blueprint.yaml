@@ -15,7 +15,7 @@ integrations: ["Webhook", "Cloud Secrets"]
 supportedDevices:
   - name: Boron
   - name: Argon
-  - name: M-SoM, 
+  - name: M-SoM 
   - name: Photon 2
   - name: Muon
   - name: Monitor One
