@@ -3,7 +3,7 @@ type: Tutorial
 category: "Device integration and connectivity"
 expertiseLevel: "Intermediate"
 tags: ["Time Series", "Industrial", "Sensors"]
-icon: assets/siemens-mindsphere-tutorial.svg
+icon: assets/siemens.svg
 gitrepo: https://github.com/particle-iot/blueprints-mindsphere-tutorial
 name: "Siemens MindSphere tutorial"
 shortDescription: "Learn how to send data from a Particle device to Siemens MindSphere using the Timeseries REST API."
